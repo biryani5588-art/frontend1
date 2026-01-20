@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
     <section className="w-full bg-[#fbf1e7]">
-      <div className="max-w-[1500px] mx-auto grid grid-cols-1 md:grid-cols-2 min-h-[600px]">
+      <div className="pt-12 md:pt-3 max-w-[1500px] mx-auto grid grid-cols-1 md:grid-cols-2 min-h-[600px]">
 
         <div className="flex flex-col justify-center px-6 md:px-16 py-16">
 

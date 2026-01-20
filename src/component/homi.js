@@ -46,9 +46,12 @@ const HomePage = () => {
         <p className="mt-6 text-[15px] text-[#6f6f6f] max-w-xl mx-auto">
           Explore our curated collection of fragrances crafted to evoke elegance, identity, and timeless sophistication.
         </p>
-        <a href="shop" className="mt-8 px-6 py-3 border border-[#6b3f2c] text-[14px] hover:bg-[#6b3f2c] hover:text-white transition">
+
+        <div className="mt-6">
+          <a href="shop" className="mt-8 mt-8 px-6 py-3 border border-[#6b3f2c] text-[14px] hover:bg-[#6b3f2c] hover:text-white transition">
           SHOP NOW
         </a>
+        </div>
       </div>
 
       <div className="max-w-[1400px] mx-auto px-6 md:px-20 py-32 grid md:grid-cols-3 gap-12">
