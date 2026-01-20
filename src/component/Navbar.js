@@ -97,7 +97,7 @@ const Navbar = () => {
 
       {/* MOBILE MENU */}
       {open && (
-        <div className="md:hidden border-t bg-white px-6 py-4 space-y-4 text-sm">
+        <div className="md:hidden flex flex-col border-t bg-white px-6 py-4 space-y-4 text-sm">
           <NavLink to="/" onClick={() => setOpen(false)} className={linkClass}>
             Home
           </NavLink>
